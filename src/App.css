@@ -1,0 +1,41 @@
+.pendu {
+  width: 500px;
+  margin: 0;
+  user-select: none;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.reset {
+  width: 340px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.won {
+  font-size: 35px;
+  color: green;
+}
+
+.lost {
+  font-size: 35px;
+  color: tomato;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.status {
+  margin: auto;
+}

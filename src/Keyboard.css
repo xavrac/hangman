@@ -1,0 +1,25 @@
+.keyboard {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 340px;
+    margin: auto;
+}
+
+.key {
+    font-size: 2em;
+    flex: 1 1 calc(100% / 9 - 0.4em);
+    outline: 0.08em solid silver;
+    margin: 5px;
+    text-align: center;
+}
+
+.unclicked {
+    cursor: pointer;
+    background: white;
+}
+
+.clicked {
+    background: silver;
+    cursor: not-allowed;
+}
